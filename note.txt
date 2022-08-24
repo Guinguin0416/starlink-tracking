@@ -1,0 +1,27 @@
+Features:
+1. providing settings
+2. list all satellites on the given location
+3. track satellites on map
+
+Layout:
+top
+main (left right)
+bottom
+
+Components:
+                                App
+
+
+                                   cb1: onShow
+              Header          Main cb2: onShowMap           Footer
+                                   satInfo
+                                   isLoad
+
+                 SatSetting  SatList    WorldMap
+                 cb1         cb2
+                             satInfo
+                             isLoad
+Ref:
+    define
+        - React.createRef()
+        - (refInstance)=>{ }
